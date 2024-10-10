@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-"""Annotations in python"""
+"""
+Annotations in python
+"""
 
 
 def add(a: float, b: float) -> float:
-    """add two floats"""
+    """
+    add two floats
+    """
     return a + b
