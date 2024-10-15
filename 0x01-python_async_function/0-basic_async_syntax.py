@@ -7,6 +7,6 @@ import asyncio
 
 
 async def wait_random(max_delay=10):
-    num = random.random()
+    num = random.random() * max_delay
     await asyncio.sleep(num)
     return (num)
