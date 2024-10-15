@@ -4,9 +4,9 @@ import random
 import asyncio
 
 
-async def wait_random(max_delay: int=10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     """
-    Generate a random float 
+    Generate a random float
     implement async funcs
     """
     num = random.uniform(0, max_delay)
